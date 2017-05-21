@@ -4,6 +4,13 @@ Clustered Maxmind Ip lookup system using Apache Spark.
 ## Version
 Apache Spark 2+
 
+## Prerequisite
+    geoip2==2.5.0
+    
+Install **geoip2** using pip:
+    
+    pip install geoip2==2.5.0
+
 ## How to use
 
 This repository can be tested using [Maxmind GeoLite2 City Free Downloadable Database](http://dev.maxmind.com/geoip/geoip2/geolite2/).
